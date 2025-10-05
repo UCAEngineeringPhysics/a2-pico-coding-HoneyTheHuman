@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MoSxkwc_)
 # Coding Raspberry Pi Pico
 
 ## Objectives
@@ -39,7 +40,7 @@ Complete [switch_mode.py](/switch_mode.py) and use a button to switch an LED's w
 ### 2 (10%) Circuit Picture
 Upload a picture of your actual circuit and display it below 👇
 
-![wiring_pic](wiring.png)
+![wiring_pic](IMG_9776.jpg)
 
 > [!WARNING]
 > The circuit picture has to be clear about Pico's GPIO pins connection with the LED and the button.
@@ -52,9 +53,9 @@ And $n$ indicates number of duty cycle increments in the period of $T$.
 Use $D_{max}$ as the maximal value for PWM signal's duty cycle.
 Please write out the equation of the duty cycle's **increment** value, $s$, below :point_down:
 
-> Type equation with LaTex syntax here.
+$s = \frac{D_{\text{max}}}{n}$
 
-> [!TIP]
+This means the duty cycle increases by s for each step, so over n increments within the total time T, the LED’s brightness ramps smoothly from 0 to Dmax
 > - Writing mathematical expressions [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 > - LaTex math [cheat sheet](https://tug.ctan.org/info/undergradmath/undergradmath.pdf) for undergrads
 
