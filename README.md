@@ -55,7 +55,10 @@ Please write out the equation of the duty cycle's **increment** value, $s$, belo
 
 > Type equation with LaTex syntax here.
 
-> [!TIP]
+> \[
+s = \frac{D_{\text{max}}}{n}
+\]
+This means the duty cycle increases by s for each step, so over n increments within the total time T, the LED’s brightness ramps smoothly from 0 to Dmax
 > - Writing mathematical expressions [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 > - LaTex math [cheat sheet](https://tug.ctan.org/info/undergradmath/undergradmath.pdf) for undergrads
 
