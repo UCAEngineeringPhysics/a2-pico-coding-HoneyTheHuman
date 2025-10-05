@@ -53,7 +53,7 @@ And $n$ indicates number of duty cycle increments in the period of $T$.
 Use $D_{max}$ as the maximal value for PWM signal's duty cycle.
 Please write out the equation of the duty cycle's **increment** value, $s$, below :point_down:
 
-\[s = \frac{D_{\text{max}}}{n}\]
+$s = \frac{D_{\text{max}}}{n}$
 
 This means the duty cycle increases by s for each step, so over n increments within the total time T, the LED’s brightness ramps smoothly from 0 to Dmax
 > - Writing mathematical expressions [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
